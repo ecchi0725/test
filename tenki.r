@@ -1,6 +1,6 @@
 dat <- read.csv("data.csv",header=T)
-p <- ncol(dat)
-n <- nrow(dat)
+p <- ncol(data)
+n <- nrow(data)
 library(MASS)
 
 print("気温、風速、気圧、湿度")
